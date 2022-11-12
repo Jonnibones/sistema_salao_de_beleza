@@ -1,0 +1,39 @@
+on: 
+  push:
+    branches:
+    - main
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+
+        server: files.000webhost.com
+        username: donnard-inch
+        password: ${{ secrets.FTP_PASS }}  
+        server-dir: public_html/ 
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          app/cache/*
+          writable/session/*
+          app/config/*
+          app/core/*
+          app/helpers/*
+          app/hooks/*
+          app/language/**
+          app/libraries/*
+          app/logs/*
+          app/third_party/*
+          writable/debugbar/*
+          app/config/config.php
+          app/config/database.php
+          .env
