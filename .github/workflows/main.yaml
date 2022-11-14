@@ -15,10 +15,10 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
 
-        server: files.000webhost.com
-        username: donnard-inch
+        server: ftp.hyperphp.com
+        username: hp_32992025
         password: ${{ secrets.FTP_PASS }}  
-        server-dir: public_html/ 
+        server-dir: htdocs/ 
         exclude: |
           **/.git*
           **/.git*/**
