@@ -24,9 +24,9 @@
         
         <nav>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">Sobre Nós</a></li>
-            <li><a href="services.html">Procedimentos</a></li>
+            <li class="current"><a href="header.php">Home</a></li>
+            <li><a href="about.php">Sobre Nós</a></li>
+            <li><a href="services.php">Procedimentos</a></li>
           </ul>
         </nav>
       </div>
