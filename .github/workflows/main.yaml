@@ -26,7 +26,7 @@ jobs:
           vendor/*
           app/cache/*
           writable/session/*
-          app/config/*
+          app/Config/*
           app/core/*
           app/helpers/*
           app/hooks/*
@@ -36,5 +36,5 @@ jobs:
           app/third_party/*
           writable/debugbar/*
           app/config/config.php
-          app/config/database.php
+          app/Config/database.php
           .env
