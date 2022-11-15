@@ -26,6 +26,7 @@ jobs:
           vendor/*
           app/cache/*
           writable/session/*
+          app/Config/*
           app/core/*
           app/helpers/*
           app/hooks/*
