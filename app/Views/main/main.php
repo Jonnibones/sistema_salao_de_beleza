@@ -242,8 +242,8 @@ footer{
 
     <section id="showcase">
       <div class="container">
-        <h1>Porque você merece ser bem tratada</h1>
-        <p>O cliente é muito importante para nós</p>
+        <h3><font color="blue">Porque você merece ser bem tratada</font></h3>
+        
       </div>
     </section>
 
@@ -261,24 +261,22 @@ footer{
       <div class="container">
         <div class="box">
           <img src="./img/logo_html.png">
-          <h3>HTML5 Markup</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <h3>Titulo</h3>
+          <p>texto</p>
         </div>
         <div class="box">
           <img src="./img/logo_css.png">
-          <h3>CSS3 Styling</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <h3>Titulo</h3>
+          <p>texto</p>
         </div>
         <div class="box">
           <img src="./img/logo_brush.png">
-          <h3>Graphic Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+          <h3>Titulo</h3>
+          <p>texto</p>
         </div>
       </div>
     </section>
 
-    <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2019</p>
-    </footer>
+    
   </body>
 
