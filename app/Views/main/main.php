@@ -1,4 +1,6 @@
 
+  
+  
   <body>
   
   <style>
@@ -210,6 +212,7 @@ footer{
   }
 }
 
+  
   </style>
   
   
@@ -217,77 +220,65 @@ footer{
   
   
   
-  
+      
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">Acme</span> Web Design</h1>
+          <h1><span class="highlight">Studio</span> Daniela Carvalho</h1>
         </div>
+        
+        
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="current"><a href="services.html">Services</a></li>
+            <li class="current"><a href="index.php">Home</a></li>
+            <li><a href="about.php">Sobre Nós</a></li>
+            <li><a href="services.php">Procedimentos</a></li>
           </ul>
         </nav>
       </div>
     </header>
+    
+    
+
+    <section id="showcase">
+      <div class="container">
+        <h1>Porque você merece ser bem tratada</h1>
+        <p>O cliente é muito importante para nós</p>
+      </div>
+    </section>
 
     <section id="newsletter">
       <div class="container">
-        <h1>Subscribe To Our Newsletter</h1>
+        <h1>Deixe seu e-mail para receber nossas promoções </h1>
         <form>
           <input type="email" placeholder="Enter Email..." required>
-          <button type="submit" class="button_1">Subscribe</button>
+          <button type="submit" class="button_1">Se increva</button>
         </form>
       </div>
     </section>
 
-    <section id="main">
+    <section id="boxes">
       <div class="container">
-        <article id="main-col">
-          <h1 class="page-title">Services</h1>
-          <ul id="services">
-            <li>
-              <h3>Website Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-						  <p>Pricing: $1,000 - $3,000</p>
-            </li>
-            <li>
-              <h3>Website Maintenance</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-						  <p>Pricing: $250 per month</p>
-            </li>
-            <li>
-              <h3>Website Hosting</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.</p>
-						  <p>Pricing: $25 per month</p>
-            </li>
-          </ul>
-        </article>
-
-        <aside id="sidebar">
-          <div class="dark">
-            <h3>Get A Quote</h3>
-            <form class="quote">
-  						<div>
-  							<label>Name</label><br>
-  							<input type="text" placeholder="Name">
-  						</div>
-  						<div>
-  							<label>Email</label><br>
-  							<input type="email" placeholder="Email Address">
-  						</div>
-  						<div>
-  							<label>Message</label><br>
-  							<textarea placeholder="Message"></textarea>
-  						</div>
-  						<button class="button_1" type="submit">Send</button>
-					</form>
-          </div>
-        </aside>
+        <div class="box">
+          <img src="./img/logo_html.png">
+          <h3>HTML5 Markup</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_css.png">
+          <h3>CSS3 Styling</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
+        <div class="box">
+          <img src="./img/logo_brush.png">
+          <h3>Graphic Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies</p>
+        </div>
       </div>
     </section>
 
+    <footer>
+      <p>Acme Web Deisgn, Copyright &copy; 2019</p>
+    </footer>
   </body>
 
