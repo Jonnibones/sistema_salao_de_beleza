@@ -1,0 +1,13 @@
+CRITICAL - 2022-11-05 08:36:06 --> Invalid file: main/.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main/.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('main/', [], true)
+ 3 APPPATH\Views\master_view.php(11): view('main/')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\master_view.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('master_view', [], true)
+ 7 APPPATH\Controllers\Home.php(13): view('master_view')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
