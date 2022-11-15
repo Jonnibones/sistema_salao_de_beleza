@@ -23,6 +23,7 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
+          vendor/*
           app/cache/*
           writable/session/*
           app/config/*
