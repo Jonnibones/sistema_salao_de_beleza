@@ -1,7 +1,7 @@
 <header>
 
 
-  <img src="<?php echo base_url(); ?>/src/img/logo_brush.png" alt="Logo salão">
+  <img src="<?php echo base_url(); ?>/src/img/foto.png" alt="Logo salão">
 
   <div id="menu">
     <ul>
