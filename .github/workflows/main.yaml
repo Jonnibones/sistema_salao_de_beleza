@@ -27,41 +27,7 @@ jobs:
           app/cache/*
           writable/session/*
           app/Config/Boot/*
-          app/Config/App.php
-          app/Config/Autoload.php
-          app/Config/Cache.php
-          app/Config/Constants.php
-          app/Config/ContentSecurityPolicy.php
-          app/Config/Cookie.php
-          app/Config/CURLRequest.php
-          app/Config/Database.php
-          app/Config/DocTypes.php
-          app/Config/Email.php
-          app/Config/Encryption.php
-          app/Config/Events.php
-          app/Config/Exceptions.php
-          app/Config/Feature.php
-          app/Config/Filters.php
-          app/Config/ForeignCharacters.php
-          app/Config/Format.php
-          app/Config/Generators.php
-          app/Config/Honeypot.php
-          app/Config/Images.php
-          app/Config/Kint.php
-          app/Config/Logger.php
-          app/Config/Migrations.php
-          app/Config/Mimes.php
-          app/Config/Modules.php
-          app/Config/Pager.php
-          app/Config/Paths.php
-          app/Config/Publisher.php
-          app/Config/Security.php
-          app/Config/Services.php
-          app/Config/Toolbar.php
-          app/Config/UserAgents.php
-          app/Config/Validation.php
-          app/Config/View.php
-          
+          app/Config/*        
           app/core/*
           app/helpers/*
           app/hooks/*
