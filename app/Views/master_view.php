@@ -10,7 +10,7 @@
     
 </head>
 
-<body>
+<body style="margin:0px;">
     <?php echo view('template/header'); ?>
     <?php echo view('main/' . $view_principal); ?>
     <?php echo view('template/footer'); ?>

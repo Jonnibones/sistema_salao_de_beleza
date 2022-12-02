@@ -1,0 +1,13 @@
+CRITICAL - 2022-12-01 18:19:19 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Admin.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-01 18:28:43 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, object given, called in C:\wamp64\www\sistema_salao_de_beleza\app\Controllers\Admin.php on line 44
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Admin.php(44): CodeIgniter\HTTP\RedirectResponse->to('/admin/main', Object(CodeIgniter\Session\Session))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

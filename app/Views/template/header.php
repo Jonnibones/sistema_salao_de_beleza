@@ -81,4 +81,5 @@
     border-radius: 0.5em;
     transition: 1s;
     font-weight: bold;
+  }
 </style>
